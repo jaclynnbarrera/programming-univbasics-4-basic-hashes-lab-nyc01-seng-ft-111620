@@ -1,12 +1,9 @@
 def new_hash
-  empty_hash = {}
+  {}
 end
 
-def my_hash
-  valid_hash = {
-    name: "Jaclyn",
-    age: "29"
-  }
+def my_hash 
+  {:name => "Jaclyn"}
 end
 
 def pioneer
